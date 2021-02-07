@@ -19,19 +19,22 @@ function ArticlesPage(){
 
             
 
-                    <h3 className="eventOverviewHeaders">Hackathon</h3>
+                    <h3 className="eventOverviewHeaders">Climate News</h3>
 
-                    <div class="content2">
+                    <div class="content">
 
                         <div className="imgContent" justify="center">
                             <img className={classes.imgClass} src={polarBear} />
                         </div>
 
                         <div class="imgText">
-                            <h5 class="imgTextChild"> Experienced in coding? Passionate about software development? Sign up now to be a part 
-                            of the first hackathon run by NUS FinTech Society!</h5>
+                            <h5 class="imgTextChildDate">February 4, 2021</h5>
+                            <h5 class="imgTextChild">Ecotherapy: Mental health and the climate crisis</h5>
+                            <h5 class="imgTextChildSub">More people are seeking counselling over their concerns about the looming climate crisis, a practice offering the “ecotherapy” services says.</h5>
                         </div>
                     </div>
+
+    
                 </Grid>
             </Grid>
         </div>
