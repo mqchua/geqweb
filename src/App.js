@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Button } from '@material-ui/core';
 import Articles from './pages/articles/ArticlesPage.js';
+import tree from './images/tree.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,7 +18,12 @@ const useStyles = makeStyles((theme) => ({
   appbar:{
     position:'sticky',
     top:0,
-  }
+  },
+  logo: {
+    maxWidth: 40,
+    padding: 5,
+
+  },
 }));
 
 function App() {
@@ -30,18 +36,15 @@ function App() {
       <AppBar className={classes.appbar}color='#C0C0C0'>
         <Toolbar variant="dense">
           
-          <div className={classes.title}>
-            <img class='App-logo' src={""} alt='Logo' />
-          </div>
-          <div className={classes.title}>
-            <img class='App-logo' src={""} alt='Logo' />
-          </div>
+          <a href="/">
+            <img src={tree} alt="logo" href="/" className={classes.logo} />
+          </a>
           <div className={classes.emptyitem}></div>
           <div className={classes.emptyitem}></div>
           <div className={classes.emptyitem}></div>
           <Button color="inherit" href="/" className={classes.title}>Articles</Button>
-          <Button color="inherit" href="/faq" className={classes.title}>Volunteer</Button>
-          <Button color="inherit" href="/partners/fintechlab" className={classes.title}>Forum</Button>
+          <Button color="inherit" href="/volunteer" className={classes.title}>Volunteer</Button>
+          <Button color="inherit" href="/forum" className={classes.title}>Forum</Button>
           <Button color="inherit" href="/faq" className={classes.title}>FAQ</Button>
           {/* <Button color="inherit" href="/blog" className={classes.title}>Blog</Button> */}
           {/* <div className={classes.emptyitem}></div>
