@@ -30,19 +30,22 @@ function App() {
       <AppBar className={classes.appbar}color='#C0C0C0'>
         <Toolbar variant="dense">
           
-          {/* <div className={classes.title}>
+          <div className={classes.title}>
             <img class='App-logo' src={""} alt='Logo' />
           </div>
           <div className={classes.title}>
             <img class='App-logo' src={""} alt='Logo' />
-          </div> */}
+          </div>
+          <div className={classes.emptyitem}></div>
+          <div className={classes.emptyitem}></div>
           <div className={classes.emptyitem}></div>
           <Button color="inherit" href="/" className={classes.title}>Articles</Button>
+          <Button color="inherit" href="/faq" className={classes.title}>Volunteer</Button>
           <Button color="inherit" href="/partners/fintechlab" className={classes.title}>Forum</Button>
           <Button color="inherit" href="/faq" className={classes.title}>FAQ</Button>
           {/* <Button color="inherit" href="/blog" className={classes.title}>Blog</Button> */}
-          <div className={classes.emptyitem}></div>
-          <div className={classes.emptyitem}></div>
+          {/* <div className={classes.emptyitem}></div>
+          <div className={classes.emptyitem}></div> */}
         </Toolbar>
       </AppBar>
 

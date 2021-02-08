@@ -31,7 +31,7 @@
     padding:18px;
     margin:0;
     font-size: 18px;
-    background-color: #f5a742;
+    background-color: #ccffcc;
 
 } 
 
@@ -130,9 +130,8 @@ img {
 
 .imgContent {
     grid-area: imgContent;
-    margin:0;
-    padding:0;
     align-items: center;
+
     /* border-color:pink;
     border-width: 3px;
     border-style: dotted; */
@@ -141,40 +140,51 @@ img {
 .imgText {
     grid-area: imgText;
     margin:0;
-    padding:0;
-    /* color:black; */
-    border-color:black;
-    border-style: dotted;
+    padding: 20px;
+    width: 400px;
+    color:black;
+    /* border-color:black;
+    border-style: dotted; */
     align-self:center;
     justify-self: center;
     
 }
 
+.imgTextChildDate {
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    color: black;
+    /* border-color:pink;
+    border-style: dotted; */
+    font-weight: 500;
+}
+
 .imgTextChild{
-    border-color:pink;
-    border-style: dotted;
-    min-width: 300px;
-    width:500px;
+    /* border-color:pink;
+    border-style: dotted; */
+    margin:0;
+    padding:0;
+    margin-top:10px;
+    margin-bottom:10px;
+    /* min-width: 300px;
+    width:500px; */
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
     color:black;
 }
 
 .imgTextChildSub{
-    border-color:pink;
-    border-style: dotted;
-    min-width: 300px;
-    width:500px;
-    font-size: 13px;
+    margin:0;
+    padding:0;
+    /* border-color:pink;
+    border-style: dotted; */
+    font-size: 14px;
     font-weight: 500;
     color:black;
 }
 
-.imgTextChildDate {
-    font-size: 12px;
-    color: black;
-    font-weight: 500;
-}
+
 
 .imgTextChildWelcome{
     min-width: 300px;
@@ -243,11 +253,24 @@ img {
 
     .imgContent {
         grid-area: imgContent;
-        margin:0;
+        margin:20px;
         padding:0;
         /* border-color:black;
         border-style: dotted; */
     
+    }
+
+    .imgText {
+        grid-area: imgText;
+        margin:0;
+        padding: 0px;
+        width: 550px;
+        /* color:black;
+        border-color:black;
+        border-style: dotted; */
+        align-self:center;
+        justify-self: center;
+        
     }
     
 }
@@ -269,3 +292,16 @@ img {
     background-size: cover;
     height: 100vh;
 } */
+
+a {
+    text-decoration:none;
+ }
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
