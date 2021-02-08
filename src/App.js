@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Button } from '@material-ui/core';
 import Articles from './pages/articles/ArticlesPage.js';
+import Volunteer from './pages/volunteer/VolunteerPage.js';
 import tree from './images/tree.png';
 
 const useStyles = makeStyles((theme) => ({
@@ -42,7 +43,7 @@ function App() {
           <div className={classes.emptyitem}></div>
           <div className={classes.emptyitem}></div>
           <div className={classes.emptyitem}></div>
-          <Button color="inherit" href="/" className={classes.title}>Articles</Button>
+          <Button color="inherit" href="/" className={classes.title}>News</Button>
           <Button color="inherit" href="/volunteer" className={classes.title}>Volunteer</Button>
           <Button color="inherit" href="/forum" className={classes.title}>Forum</Button>
           <Button color="inherit" href="/faq" className={classes.title}>FAQ</Button>
@@ -54,6 +55,7 @@ function App() {
 
       <Switch>
         <Route path="/" exact component={Articles} />
+        <Route path="/volunteer" exact component={Volunteer} />
     
     </Switch>
 
