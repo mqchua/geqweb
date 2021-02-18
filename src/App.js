@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Button } from '@material-ui/core';
 import Articles from './pages/articles/ArticlesPage.js';
 import Volunteer from './pages/volunteer/VolunteerPage.js';
+import Forum from './pages/forum/ForumPage.js';
 import tree from './images/tree.png';
 
 const useStyles = makeStyles((theme) => ({
@@ -56,6 +57,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Articles} />
         <Route path="/volunteer" exact component={Volunteer} />
+        <Route path="/forum" exact component={Forum} />
     
     </Switch>
 
