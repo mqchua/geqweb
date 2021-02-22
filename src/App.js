@@ -5,6 +5,7 @@ import { AppBar, Toolbar, Button } from '@material-ui/core';
 import Articles from './pages/articles/ArticlesPage.js';
 import Volunteer from './pages/volunteer/VolunteerPage.js';
 import Forum from './pages/forum/ForumPage.js';
+import About from './pages/about/AboutPage.js';
 import tree from './images/tree.png';
 
 const useStyles = makeStyles((theme) => ({
@@ -47,7 +48,7 @@ function App() {
           <Button color="inherit" href="/" className={classes.title}>News</Button>
           <Button color="inherit" href="/volunteer" className={classes.title}>Volunteer</Button>
           <Button color="inherit" href="/forum" className={classes.title}>Forum</Button>
-          <Button color="inherit" href="/faq" className={classes.title}>FAQ</Button>
+          <Button color="inherit" href="/about" className={classes.title}>About</Button>
           {/* <Button color="inherit" href="/blog" className={classes.title}>Blog</Button> */}
           {/* <div className={classes.emptyitem}></div>
           <div className={classes.emptyitem}></div> */}
@@ -58,6 +59,7 @@ function App() {
         <Route path="/" exact component={Articles} />
         <Route path="/volunteer" exact component={Volunteer} />
         <Route path="/forum" exact component={Forum} />
+        <Route path="/about" exact component={About} />
     
     </Switch>
 

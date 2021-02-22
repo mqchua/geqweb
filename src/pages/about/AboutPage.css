@@ -1,0 +1,23 @@
+.aboutHeader{
+    text-decoration: underline;
+    /* margin:0; */
+    margin-top: 20px;
+    min-width: 300px;
+    width:500px;
+    padding:40px;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    outline-style:dotted;
+    outline-color:black;
+}
+
+.HomePageAbout{
+    min-width: 300px;
+    width:500px;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 25px;
+    outline-style:dotted;
+    outline-color:black;
+}
