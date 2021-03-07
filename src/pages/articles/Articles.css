@@ -74,8 +74,8 @@ img {
     color:black;
     /* border-color:black;
     border-style: dotted; */
-    align-self:center;
-    justify-self: center;
+    /* align-self:center;
+    justify-self: center; */
     
 }
 
@@ -163,29 +163,33 @@ img {
 
 
 @media screen and (min-width: 960px) {
-    .content {
-        margin:0;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-        "imgContent imgText"
+
+    .alignContent {
+        width:100%;
+        display: flex;
+        justify-content: center;
     }
-    .content2 {
-        margin:0;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-        "imgText imgContent"
+
+    .content {
+        /* color:black; */
+        /* display: flex; */
+        max-width : 1200px;
+        margin:0 auto;
+        /* justify-self: center; */
+        /* border-color:black;
+        border-style: dotted; */
+        
     }
 
     .imgContent {
         grid-area: imgContent;
         margin:20px;
         padding:0;
+        max-width: 500px;
+        float:left;
         /* border-color:black;
         border-style: dotted; */
+        flex: 1;
     
     }
 
@@ -194,11 +198,14 @@ img {
         margin:0;
         padding: 0px;
         width: 550px;
+        float:left;
         /* color:black;
         border-color:black;
         border-style: dotted; */
-        align-self:center;
-        justify-self: center;
+        flex: 1;
+        
+        /* align-self:center; */
+        /* justify-self: center; */
         
     }
     
@@ -234,3 +241,24 @@ a {
     margin: 0;
     padding: 0;
 }
+
+
+    /* border-color:pink;
+    border-style: dotted;
+    margin:0;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "imgContent imgText" */
+
+    /* .content2 {
+        margin:0;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "imgText imgContent"
+    } */
