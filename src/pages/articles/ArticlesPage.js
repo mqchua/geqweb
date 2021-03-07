@@ -8,12 +8,15 @@ import polarBear from './images/polar_bear.jpg';
 import glacier from './images/glacier.jpg';
 import forest from './images/forest.jpg';
 import vendingmachine from './images/vendingmachine.png';
+import sentosa from './images/sentosa.png';
+import crossTrail from './images/crossTrail.jpg';
 import forestore from './images/forestore.jpg';
 import kayaking from './images/kayaking.png';
 import sultanJohor from './images/sultanJohor.png';
 import toilet from './images/toilet.jpg';
 import sgGP from './images/sgGP.png';
-
+import diesel from './images/diesel.png';
+import campervan from './images/campervan.png';
 
 function ArticlesPage(){
 
@@ -29,6 +32,126 @@ function ArticlesPage(){
             
 
                     <h3 className="eventOverviewHeaders">Climate News</h3>
+
+                    <hr/>
+{/* 
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <div class="alignContent">
+                            <div class="content">
+
+                                <div className="imgContent" justify="center">
+                                    <img className={classes.imgClass} src={} />
+                                </div>
+
+                                <div class="imgText">
+                                    <h5 class="imgTextChildDate">March 03, 2021</h5>
+                                    <h5 class="imgTextChild"></h5>
+                                    <h5 class="imgTextChildSub"> </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <hr/>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <div class="alignContent">
+                            <div class="content">
+
+                                <div className="imgContent" justify="center">
+                                    <img className={classes.imgClass} src={} />
+                                </div>
+
+                                <div class="imgText">
+                                    <h5 class="imgTextChildDate">March 03, 2021</h5>
+                                    <h5 class="imgTextChild"></h5>
+                                    <h5 class="imgTextChildSub"> </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <hr/>*/}
+
+                    <a href="https://mothership.sg/2021/03/the-breakfast-club-jacinda/" target="_blank" rel="noopener noreferrer">
+                        <div class="alignContent">
+                            <div class="content">
+
+                                <div className="imgContent" justify="center">
+                                    <img className={classes.imgClass} src={campervan} />
+                                </div>
+
+                                <div class="imgText">
+                                    <h5 class="imgTextChildDate">March 05, 2021</h5>
+                                    <h5 class="imgTextChild">S'porean, 32, starts plant-based meal delivery service after Covid-19 disrupts campervan travel to Europe</h5>
+                                    <h5 class="imgTextChildSub">A young Singaporean, who had her globe trotting cut short by the Covid-19 pandemic, returned home to start an organic farm-to-table vegan home kitchen.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <hr/>
+
+                    <a href="https://mothership.sg/2021/03/sentosa-carbon-neutral-2030/" target="_blank" rel="noopener noreferrer">
+                        <div class="alignContent">
+                            <div class="content">
+
+                                <div className="imgContent" justify="center">
+                                    <img className={classes.imgClass} src={sentosa} />
+                                </div>
+
+                                <div class="imgText">
+                                    <h5 class="imgTextChildDate">March 05, 2021</h5>
+                                    <h5 class="imgTextChild">Sentosa to become carbon-neutral leisure destination by 2030</h5>
+                                    <h5 class="imgTextChildSub">Singapore's plans to improve sustainability in various sectors will see the resort island of Sentosa transform into a carbon-neutral leisure destination by 2030.
+
+This will be a whole-of-Sentosa effort, involving all businesses on the island, and a partnership between the Sentosa Development Corporation (SDC) and Temasek.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <hr/>
+
+                    <a href="https://www.straitstimes.com/multimedia/the-big-story-no-more-new-diesel-cars-taxis-in-spore-from-2025" target="_blank" rel="noopener noreferrer">
+                        <div class="alignContent">
+                            <div class="content">
+
+                                <div className="imgContent" justify="center">
+                                    <img className={classes.imgClass} src={diesel} />
+                                </div>
+
+                                <div class="imgText">
+                                    <h5 class="imgTextChildDate">March 04, 2021</h5>
+                                    <h5 class="imgTextChild">No more new diesel cars, taxis in S'pore from 2025</h5>
+                                    <h5 class="imgTextChildSub">Opening the debate on the Government's sustainability plans in Parliament on Thursday (March 4), Senior 
+                                    Minister Teo Chee Hean said climate change poses an existential challenge for Singapore. 
+                                    The country's unique constraints also mean that the trade-offs it faces in cutting its emissions are much starker than other countries.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>  
+
+                    <hr/>
+
+                    <a href="https://mothership.sg/2021/03/nparks-recreational-routes/" target="_blank" rel="noopener noreferrer">
+                        <div class="alignContent">
+                            <div class="content">
+
+                                <div className="imgContent" justify="center">
+                                    <img className={classes.imgClass} src={crossTrail} />
+                                </div>
+
+                                <div class="imgText">
+                                    <h5 class="imgTextChildDate">March 04, 2021</h5>
+                                    <h5 class="imgTextChild">NParks to develop longest 62km cross-island trail from Changi Beach to Tuas</h5>
+                                    <h5 class="imgTextChildSub">The National Parks Board (NParks) will be curating more island-wide recreational routes in the coming years.
+
+This is one of the new initiatives to transform Singapore into a City in Nature, Minister for National Development Desmond Lee said on Mar. 4 during COS Debates.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
 
                     <hr/>
 
