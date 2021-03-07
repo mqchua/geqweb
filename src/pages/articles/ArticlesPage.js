@@ -7,6 +7,9 @@ import eWaste from './images/ewaste.jpg';
 import polarBear from './images/polar_bear.jpg';
 import glacier from './images/glacier.jpg';
 import forest from './images/forest.jpg';
+import vendingmachine from './images/vendingmachine.png';
+import forestore from './images/forestore.jpg';
+import kayaking from './images/kayaking.png';
 import sultanJohor from './images/sultanJohor.png';
 import toilet from './images/toilet.jpg';
 import sgGP from './images/sgGP.png';
@@ -29,22 +32,22 @@ function ArticlesPage(){
 
                     <hr/>
 
-                    <a href="https://www.channelnewsasia.com/news/asia/malaysia-johor-sultan-largest-solar-plant-pengerang-14305438#:~:text=%22To%20be%20called%20the%20Sultan,for%202021%2C%20the%20statement%20said." target="_blank" rel="noopener noreferrer">
+                    <a href="https://mothership.sg/2021/03/5-reverse-vending-machines-jurong/" target="_blank" rel="noopener noreferrer">
                         <div class="alignContent">
                             <div class="content">
 
                                 <div className="imgContent" justify="center">
-                                    <img className={classes.imgClass} src={sultanJohor} />
+                                    <img className={classes.imgClass} src={vendingmachine} />
                                 </div>
 
                                 <div class="imgText">
-                                    <h5 class="imgTextChildDate">March 01, 2021</h5>
-                                    <h5 class="imgTextChild">Johor to build largest solar power plant in Southeast Asia: Sultan Ibrahim</h5>
-                                    <h5 class="imgTextChildSub">The sultan outlined that the project will have a "healthy economic spill over effect" for the people by creating jobs "at various levels", said the statement.
+                                    <h5 class="imgTextChildDate">March 03, 2021</h5>
+                                    <h5 class="imgTextChild">5 new vending machines in Jurong allow exchange of plastic bottles &amp; cans for rewards</h5>
+                                    <h5 class="imgTextChildSub"> Jurong residents will soon have a convenient way to recycle and get rewards in return.
 
-    “With this exciting project, Johor will make a quantum leap into the world of renewable and sustainable clean energy,” he said. 
+                                    A total of five Reverse Vending Machines (RVMs) will be deployed at various locations in the west.
 
-    He added that the project will mark Johor’s first major foray into large-scale sustainable energy to foster green economies and a cleaner environment.</h5>
+                                    It is part of a pilot programme in Jurong by the National Environment Agency (NEA), under waste management provider, Alba W&amp;H Smart City's Public Waste Collection. </h5>
                                 </div>
                             </div>
                         </div>
@@ -64,6 +67,29 @@ function ArticlesPage(){
                                     <h5 class="imgTextChildDate">March 03, 2021</h5>
                                     <h5 class="imgTextChild">The Singapore Green Plan</h5>
                                     <h5 class="imgTextChildSub">The Singapore Green Plan is a multi ministry effort to encourage sustainability in key areas including sustainable urban development, green energy use, and green economic growth. One key area is the Enterprise Sustainability Programme which will help enterprises, especially SMEs, embrace sustainability and develop capabilities in this area. </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <hr/>
+
+                    <a href="https://www.channelnewsasia.com/news/asia/malaysia-johor-sultan-largest-solar-plant-pengerang-14305438#:~:text=%22To%20be%20called%20the%20Sultan,for%202021%2C%20the%20statement%20said." target="_blank" rel="noopener noreferrer">
+                        <div class="alignContent">
+                            <div class="content">
+
+                                <div className="imgContent" justify="center">
+                                    <img className={classes.imgClass} src={sultanJohor} />
+                                </div>
+
+                                <div class="imgText">
+                                    <h5 class="imgTextChildDate">March 01, 2021</h5>
+                                    <h5 class="imgTextChild">Johor to build largest solar power plant in Southeast Asia: Sultan Ibrahim</h5>
+                                    <h5 class="imgTextChildSub">The sultan outlined that the project will have a "healthy economic spill over effect" for the people by creating jobs "at various levels", said the statement.
+
+    “With this exciting project, Johor will make a quantum leap into the world of renewable and sustainable clean energy,” he said. 
+
+    He added that the project will mark Johor’s first major foray into large-scale sustainable energy to foster green economies and a cleaner environment.</h5>
                                 </div>
                             </div>
                         </div>
@@ -92,23 +118,6 @@ function ArticlesPage(){
                         </div>
                     </a>
 
-                    {/* <hr/>
-
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        <div class="content">
-
-                            <div className="imgContent" justify="center">
-                                <img className={classes.imgClass} src={} />
-                            </div>
-
-                            <div class="imgText">
-                                <h5 class="imgTextChildDate">February 11, 2021</h5>
-                                <h5 class="imgTextChild"></h5>
-                                <h5 class="imgTextChildSub"></h5>
-                            </div>
-                        </div>
-                    </a> */}
-
                     <hr/>
 
                     <a className="linksVideo" href="https://www.straitstimes.com/singapore/singapore-to-have-new-electronic-waste-disposal-system-this-year" target="_blank" rel="noopener noreferrer">
@@ -130,57 +139,49 @@ function ArticlesPage(){
 
                     <hr/>
 
-                    {/* <a href="https://www.rnz.co.nz/news/national/434686/ecotherapy-mental-health-and-the-climate-crisis" target="_blank" rel="noopener noreferrer">
+                    <a href="https://rvrc.nus.edu.sg/2021/01/paddling-for-cleaner-waterways/" target="_blank" rel="noopener noreferrer">
+                    <div class="alignContent">
                         <div class="content">
 
                             <div className="imgContent" justify="center">
-                                <img className={classes.imgClass} src={polarBear} />
+                                <img className={classes.imgClass} src={kayaking} />
                             </div>
 
                             <div class="imgText">
-                                <h5 class="imgTextChildDate">February 4, 2021</h5>
-                                <h5 class="imgTextChild">Ecotherapy: Mental health and the climate crisis</h5>
-                                <h5 class="imgTextChildSub">More people are seeking counselling over their concerns about the looming climate crisis, a practice offering the “ecotherapy” services says.</h5>
+                                <h5 class="imgTextChildDate">January 5, 2021</h5>
+                                <h5 class="imgTextChild">RVRC - Paddling for cleaner waterways</h5>
+                                <h5 class="imgTextChildSub">RVRC staff and students had fun kayaking on the peaceful waters of Jurong lake, where they 
+                                encountered an extensive amount of trash in the seemingly clean and pristine lake. Spanning seven kayaking sessions, students collected and 
+                                documented 1279 items of trash comprising primarily plastic bags and food packaging.
+                                 The activity provided the participants with an impactful reminder to be vigilant about their individual consumption and disposal habits for single-use plastics.</h5>
                             </div>
+                        </div>
                         </div>
                     </a>
 
                     <hr/>
 
-                    <a href="https://climate.nasa.gov/news/3062/warming-seas-are-accelerating-greenlands-glacier-retreat/" target="_blank" rel="noopener noreferrer">
+
+                    <a href="https://rvrc.nus.edu.sg/2020/08/rv-forestore-fighting-weeds-at-chestnut-np-29-aug/" target="_blank" rel="noopener noreferrer">
+                    <div class="alignContent">
                         <div class="content">
 
                             <div className="imgContent" justify="center">
-                                <img className={classes.imgClass} src={glacier} />
+                                <img className={classes.imgClass} src={forestore} />
                             </div>
 
                             <div class="imgText">
-                                <h5 class="imgTextChildDate">January 25, 2021</h5>
-                                <h5 class="imgTextChild">Warming Seas Are Accelerating Greenland's Glacier Retreat</h5>
-                                <h5 class="imgTextChildSub">Greenland’s melting glaciers, which plunge into Arctic waters via steep-sided inlets, or fjords, are among the main contributors to global sea level rise in response to climate change.</h5>
+                                <h5 class="imgTextChildDate">August 29, 2020</h5>
+                                <h5 class="imgTextChild">RVRC - Forest Restoration</h5>
+                                <h5 class="imgTextChildSub">A team of five headed down to our forest restoration plot at Chestnut Nature Park on Saturday morning. It was the first Seedling Protection Activity (SPA) by RV FoRestore since March. After the long hiatus invasive climbers had 
+                                smothered some of the young trees planted. 
+                                The Zone B team had a good workout rescuing the young trees from the weeds!</h5>
                             </div>
+                        </div>
                         </div>
                     </a>
 
                     <hr/>
-
-                    <a href="https://climate.nasa.gov/news/3057/land-ecosystems-are-becoming-less-efficient-at-absorbing-carbon-dioxide/" target="_blank" rel="noopener noreferrer">
-                        <div class="content">
-
-                            <div className="imgContent" justify="center">
-                                <img className={classes.imgClass} src={forest} />
-                            </div>
-
-                            <div class="imgText">
-                                <h5 class="imgTextChildDate">December 21, 2020</h5>
-                                <h5 class="imgTextChild">Land Ecosystems Are Becoming Less Efficient at Absorbing Carbon Dioxide</h5>
-                                <h5 class="imgTextChildSub">As levels of CO2 in the atmosphere increase, 86% of land ecosystems globally are becoming progressively less efficient at absorbing it.</h5>
-                            </div>
-                        </div>
-                    </a> */}
-
-                    <hr/>
-
 
     
                 </Grid>
