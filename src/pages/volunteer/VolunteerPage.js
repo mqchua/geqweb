@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 // import hantublog from './images/hantublog.jpg';
 // import seagrass from './images/seagrass.jpg';
 import climateCon from './images/climateCon.png';
-import ecoSg from './images/ecoSg.png';
+import ecoSg from './images/ecoSg.jpg';
 import syca from './images/syca.png';
 import wws from './images/wws.jpeg';
 import zerowastesg from './images/zerowastesg.png';
@@ -24,7 +24,6 @@ function ArticlesPage(){
 
                 <Grid item xs={12} justify="center" >
 
-            
 
                     <h3 className="eventOverviewHeaders">Volunteer Groups</h3>
 
@@ -39,7 +38,7 @@ function ArticlesPage(){
 
                             <div class="imgText">
                                 <h5 class="imgTextChild">Climate Conversations </h5>
-                                <h5 class="imgTextChildSub">&rarr;  Provide various opportunities to discuss and exchange ideas with different people.
+                                <h5 class="imgTextChildSub">&rarr;  Provide various opportunities to discuss and exchange ideas with different people
                                 <br></br>
                                 &rarr;  Offers variety of roles (newsletter editor, video editor, event coordinator etc.)
                                 <br></br>
@@ -55,11 +54,11 @@ function ArticlesPage(){
                         <div class="content">
 
                             <div className="imgContent" justify="center">
-                                <img className={classes.imgClass} src={ecoSg} />
+                                <img className={classes.imgClass} src={zerowastesg} />
                             </div>
 
                             <div class="imgText">
-                                <h5 class="imgTextChild">ZeroWaste SG </h5>
+                                <h5 class="imgTextChild">ZeroWaste SG</h5>
                                 <h5 class="imgTextChildSub">&rarr;  Devoted to reducing wastes in Singapore (food waste, plastic disposable etc.)</h5>
                             </div>
                         </div>
@@ -71,12 +70,13 @@ function ArticlesPage(){
                         <div class="content">
 
                             <div className="imgContent" justify="center">
-                                <img className={classes.imgClass} src={syca} />
+                                <img className={classes.imgClass} src={ecoSg} />
                             </div>
 
                             <div class="imgText">
                                 <h5 class="imgTextChild">ECO Singapore</h5>
-                                <h5 class="imgTextChildSub">&rarr; Challenges and educate the youth ages 17-35 to adopt sustainable lifestyle
+                                <h5 class="imgTextChildSub">&rarr; Challenges and educate the youth ages 17-35 to adopt sustainable lifestyle.
+                                    <br></br>
                                      &rarr; Encourage the youth to take initiatives and lead the projects by themselves.
                                 </h5>
                             </div>
@@ -105,7 +105,7 @@ function ArticlesPage(){
                         <div class="content">
 
                             <div className="imgContent" justify="center">
-                                <img className={classes.imgClass} src={zerowastesg} />
+                                <img className={classes.imgClass} src={syca} />
                             </div>
 
                             <div class="imgText">

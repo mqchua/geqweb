@@ -12,6 +12,10 @@ export const useStyles = makeStyles(theme => ({
         height: "100vh",
     },
 
+    imgClass: {
+        height:"120px",
+    },
+
 
     //  Event Overview Page Section
 
