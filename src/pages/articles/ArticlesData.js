@@ -3,6 +3,7 @@ import campervan from './images/campervan.png';
 import sentosa from './images/sentosa.png';
 import diesel from './images/diesel.png';
 import crossTrail from './images/crossTrail.jpg';
+import treesplanting from './images/treesplanting.png';
 import vendingmachine from './images/vendingmachine.png';
 import sgGP from './images/sgGP.png';
 import sultanJohor from './images/sultanJohor.png';
@@ -60,6 +61,13 @@ export default [
         image: crossTrail
     },
     {
+        link: 'https://www.nationalgeographic.com/environment/article/planting-trees-helps-fight-climate-change-but-we-need-billions-more-seedlings',
+        date: 'March 03, 2021',
+        title: 'Planting trees helps fight climate change—but we need billions more seedlings',
+        content: 'Planting trees has quickly emerged as a seemingly simple way to soak up carbon emissions. Everybody likes it: Environmentalists, politicians, and corporations alike are pushing for a rapid expansion of reforestation efforts to help meet climate goals.',
+        image: treesplanting
+    },
+    {
         link: 'https://mothership.sg/2021/03/5-reverse-vending-machines-jurong/',
         date: 'March 03, 2021',
         title: '5 new vending machines in Jurong allow exchange of plastic bottles & cans for rewards',
@@ -93,7 +101,6 @@ export default [
         Here’s what you can do to combat climate change, according to Gates.',
         image: billgates
     },
-    // {
     {
         link: 'https://www.straitstimes.com/singapore/singapore-to-have-new-electronic-waste-disposal-system-this-year',
         date: 'February 11, 2021',
